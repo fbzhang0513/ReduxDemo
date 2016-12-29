@@ -8,7 +8,7 @@ const initialState = {
     data: "",
 };
 
-export let homeBundlesReducer = (state = initialState, action) => {
+export let homeReducer = (state = initialState, action) => {
     switch (action.type) {
         default:
             return state;

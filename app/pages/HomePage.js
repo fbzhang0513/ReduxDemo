@@ -11,8 +11,8 @@ import {
 export default class HomePage extends Component {
     render() {
         return (
-            <View style={{flex: 1}}>
-                <Text>Hello world!</Text>
+            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+                <Text>Main Page!</Text>
             </View>
         );
     }

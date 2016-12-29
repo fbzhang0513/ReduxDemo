@@ -17,5 +17,5 @@ class HomeContainer extends Component {
 }
 
 export default connect((state) => {
-    return {homeBundlesReducer} = state;
+    return {homeReducer} = state;
 })(HomeContainer);

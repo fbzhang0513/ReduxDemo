@@ -3,10 +3,12 @@
  */
 
 import {combineReducers} from 'redux';
-import {homeBundlesReducer} from './homeReducer';
+import {userReducer} from './userReducer';
+import {homeReducer} from './homeReducer';
 
 let rootReducer = combineReducers({
-    homeBundlesReducer,
+    userReducer,
+    homeReducer,
 });
 
 export default rootReducer;

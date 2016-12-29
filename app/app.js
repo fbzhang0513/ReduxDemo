@@ -9,7 +9,7 @@ import {
     StatusBar,
 } from 'react-native';
 
-import Home from './containers/HomeContainer';
+import Splash from './pages/SplashPage';
 
 export default class App extends Component {
     render() {
@@ -21,7 +21,7 @@ export default class App extends Component {
                     translucent={true}
                 />
                 <Navigator
-                    initialRoute={{name: 'Home', component: Home}}
+                    initialRoute={{name: 'Splash', component: Splash}}
                     configureScene={() => {
                         return Navigator.SceneConfigs.PushFromRight;
                     }}
