@@ -1,5 +1,5 @@
 /**
- * Created by zfb on 2016/12/29.
+ *
  */
 
 import Toast from 'react-native-root-toast';

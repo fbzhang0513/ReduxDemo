@@ -1,4 +1,4 @@
-const URL_HOST = 'http://www.ctrip.com/';
+const URL_HOST = 'https://www.baidu.com/';
 
 export const API_LOGIN = URL_HOST + '';
 export const API_LOGOUT = URL_HOST + '';
